@@ -19,6 +19,7 @@ const ProjectItem = ({ item }) => {
   const containerStyle = {
     backgroundImage: `url(${image})`,
     backgroundSize: "cover",
+    backgroundPosition: "center",
     width: "300px",
     height: "200px",
     position: "relative", // Set container to relative for overlay positioning
