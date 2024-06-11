@@ -4,6 +4,7 @@ import RandomGif from "../assets/projects/randomgif.png";
 import TASK_M from "../assets/projects/task.png";
 import jobhunt from "../assets/projects/jobhunt.png";
 import tourtales from "../assets/projects/tourtales2.png";
+import book from "../assets/projects/book.png";
 
 export const data = [
   {
@@ -29,13 +30,20 @@ export const data = [
   },
   {
     id: 4,
+    name: "Book Search",
+    image: book,
+    github: "https://github.com/aditya-shrimali/BookSearch",
+    live: "https://book-search-sigma.vercel.app/",
+  },
+  {
+    id: 5,
     name: "Items Sale",
     image: Ecomzy,
     github: "https://github.com/aditya-shrimali/Items-Sale",
     // live: "https://shopping-cart-webapp.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "CashSync App",
     image: RandomGif,
     github: "https://github.com/aditya-shrimali/CashSync",
